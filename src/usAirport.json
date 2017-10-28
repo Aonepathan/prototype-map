@@ -1,0 +1,212 @@
+[{
+		"continent": "NA",
+		"iata": "SEA",
+		"iso": "US",
+		"size": "large",
+		"name": "Seattle Tacoma International Airport",
+		"lon": "-122.301735",
+		"type": "airport",
+		"lat": "47.44384",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "PDX",
+		"iso": "US",
+		"size": "large",
+		"name": "Portland International Airport",
+		"lon": "-122.5929",
+		"type": "airport",
+		"lat": "45.588997",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "ATL",
+		"iso": "US",
+		"size": "large",
+		"name": "Hartsfield Jackson Atlanta International Airport",
+		"lon": "-84.44403",
+		"type": "airport",
+		"lat": "33.640068",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "IND",
+		"iso": "US",
+		"size": "large",
+		"name": "Indianapolis International Airport",
+		"lon": "-86.29805",
+		"type": "airport",
+		"lat": "39.714516",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "MDW",
+		"iso": "US",
+		"size": "large",
+		"name": "Chicago Midway International Airport",
+		"lon": "-87.74087",
+		"type": "airport",
+		"lat": "41.788136",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "GEG",
+		"iso": "US",
+		"size": "large",
+		"name": "Spokane International Airport",
+		"lon": "-117.537636",
+		"type": "airport",
+		"lat": "47.62515",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "EWR",
+		"iso": "US",
+		"size": "large",
+		"name": "Newark Liberty International Airport",
+		"lon": "-74.17876",
+		"type": "airport",
+		"lat": "40.68907",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "FLL",
+		"iso": "US",
+		"size": "large",
+		"name": "Fort Lauderdale Hollywood International Airport",
+		"lon": "-80.144905",
+		"type": "airport",
+		"lat": "26.071491",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "BDL",
+		"iso": "US",
+		"size": "large",
+		"name": "Bradley International Airport",
+		"lon": "-72.6847",
+		"type": "airport",
+		"lat": "41.92953",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "RIC",
+		"iso": "US",
+		"size": "large",
+		"name": "Richmond International Airport",
+		"lon": "-77.3225",
+		"type": "airport",
+		"lat": "37.50611",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "LAS",
+		"iso": "US",
+		"size": "large",
+		"name": "McCarran International Airport",
+		"lon": "-115.1486",
+		"type": "airport",
+		"lat": "36.086945",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "ANC",
+		"iso": "US",
+		"size": "large",
+		"name": "Ted Stevens Anchorage International Airport",
+		"lon": "-149.99638",
+		"type": "airport",
+		"lat": "61.174442",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "CRP",
+		"iso": "US",
+		"size": "large",
+		"name": "Corpus Christi International Airport",
+		"lon": "-97.50249",
+		"type": "airport",
+		"lat": "27.774813",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "EWR",
+		"iso": "US",
+		"size": "large",
+		"name": "Newark Liberty International Airport",
+		"lon": "-74.17876",
+		"type": "airport",
+		"lat": "40.68907",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "FLL",
+		"iso": "US",
+		"size": "large",
+		"name": "Fort Lauderdale Hollywood International Airport",
+		"lon": "-80.144905",
+		"type": "airport",
+		"lat": "26.071491",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "MSY",
+		"iso": "US",
+		"size": "large",
+		"name": "Louis Armstrong New Orleans International Airport",
+		"lon": "-90.25639",
+		"type": "airport",
+		"lat": "29.984564",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "MCI",
+		"iso": "US",
+		"size": "large",
+		"name": "Kansas City International Airport",
+		"lon": "-94.719925",
+		"type": "airport",
+		"lat": "39.293808",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "FLL",
+		"iso": "US",
+		"size": "large",
+		"name": "Fort Lauderdale Hollywood International Airport",
+		"lon": "-80.144905",
+		"type": "airport",
+		"lat": "26.071491",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "CMH",
+		"iso": "US",
+		"size": "large",
+		"name": "Port Columbus International Airport",
+		"lon": "-82.884964",
+		"type": "airport",
+		"lat": "39.99818",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "RFD",
+		"iso": "US",
+		"size": "large",
+		"name": "Chicago Rockford International Airport",
+		"lon": "-89.222115",
+		"type": "airport",
+		"lat": "42.30364",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "MDW",
+		"iso": "US",
+		"size": "large",
+		"name": "Chicago Midway International Airport",
+		"lon": "-87.74087",
+		"type": "airport",
+		"lat": "41.788136",
+		"status": 1
+	}
+]
