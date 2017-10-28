@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# FUTURE
+A - show all points of the airports and planes on the map
+    - get the markers json, convert it to ts and display it on the board
+    - bonus would be to poll all the points as a function to progressively post points on the map
+    - look at palythings repo to refer to function use
+B - show planes travelling, final point the airplane and everything past (behind) as mini points to show travelling
+C - wkt polygon allows user to build a polygon and every point selected within will be printed on the page
+
+look into animation transitions for the airplanes travelling, how do other produce that animation?
