@@ -36,12 +36,12 @@
           [circleDraggable]="true"
           [editable]="true">
         </agm-circle>
-        <ng-container>
-           <agm-polyline *ngFor="let polyline of polylines;let i = index;"  [strokeColor]="polyline.color">
-              <agm-polyline-point *ngFor="let point of polyline.path" [latitude]="point.latitude" [longitude]="point.longitude">
+        <!-- <ng-container> -->
+          <agm-polyline [strokeColor]="D2691E" [strokeOpacity]="1" >
+              <agm-polyline-point *ngFor="let m of markers" [latitude]="m.lat" [longitude]="m.lng">
               </agm-polyline-point>
-          </agm-polyline>
-        </ng-container>
+            </agm-polyline>
+        <!-- </ng-container> -->
         </agm-map>
       </div>
     </div>
