@@ -11,8 +11,9 @@ function parseJSON(json)
             obj[prop] = +obj[prop];
         }
     }
-
+    console.log(json[i]);
 }
+
   return json;
 }
 
@@ -22,9 +23,9 @@ function parseJSON(json)
   styleUrls: ['app.component.css'],
 })
 export class AppComponent {
-  title: string = 'My first AGM project';
+  title: string = 'KATSURA PROTO-MAP';
   //zoom level
-  zoom: number = 4;
+  zoom: number = 3;
   //start position
   lat: number = 38.68551;
   lon: number = -96.503906;

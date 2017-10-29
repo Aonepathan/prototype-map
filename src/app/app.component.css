@@ -1,3 +1,17 @@
 agm-map {
-  height: 500px;
+  height: 800px;
+}
+
+h1
+{
+  font-family: "Geo","Geostar Fill","Verdana", "Garamond", serif;
+  text-align: center;
+  font-size: 72px;
+  padding: 0;
+}
+
+p
+{
+  font-family: "Geo","Geostar Fill","Verdana", "Garamond", serif;
+  text-align: center;
 }
