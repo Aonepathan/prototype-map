@@ -37,6 +37,29 @@ export class AppComponent {
   {
 
   }
+  clickedMarker(marker:MyObj,index:number)
+  {
+    console.log('Clicked Marker: ' + marker.name + " at index " + index);
+  }
+
+  mapClicked($event:any)
+  {
+    var newMarker = {
+      name: 'Untitled',
+      continent: "NA",
+      iata: "unk",
+      iso: "unk",
+      size: "large",
+      type: "unk",
+      status: 1,
+      lat: $event.coords.lat,
+      lon: $event.coords.lng,
+      draggable: true
+      }
+      this.markerJSON.push(newMarker);
+  }
+
+
 }
 
 interface MyObj {
@@ -49,7 +72,7 @@ interface MyObj {
   type: string;
   lat: number;
   status: number;
-  draggable:false;
+  draggable:boolean;
 }
 
 

@@ -29,6 +29,19 @@
               <strong>{{m.name}}</strong>
             </agm-info-window>
           </agm-marker>
+          <agm-polyline></agm-polyline>
+          <agm-circle [latitude]="lat + 0.3" [longitude]="lon"
+          [radius]="5000"
+          [fillColor]="'red'"
+          [circleDraggable]="true"
+          [editable]="true">
+        </agm-circle>
+        <ng-container>
+           <agm-polyline *ngFor="let polyline of polylines;let i = index;"  [strokeColor]="polyline.color">
+              <agm-polyline-point *ngFor="let point of polyline.path" [latitude]="point.latitude" [longitude]="point.longitude">
+              </agm-polyline-point>
+          </agm-polyline>
+        </ng-container>
         </agm-map>
       </div>
     </div>
