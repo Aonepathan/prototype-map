@@ -1,0 +1,22 @@
+[{
+		"continent": "NA",
+		"iata": "SEA",
+		"iso": "US",
+		"size": "large",
+		"name": "Seattle Tacoma International Airport",
+		"lon": "-122.301735",
+		"type": "airport",
+		"lat": "47.44384",
+		"status": 1
+	}, {
+		"continent": "NA",
+		"iata": "ATL",
+		"iso": "US",
+		"size": "large",
+		"name": "Hartsfield Jackson Atlanta International Airport",
+		"lon": "-84.44403",
+		"type": "airport",
+		"lat": "33.640068",
+		"status": 1
+	}
+]

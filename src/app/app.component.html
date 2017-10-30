@@ -1,8 +1,8 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Geostar+Fill" rel="stylesheet">
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
 </head>
-
 
 <div class="container">
   <div class="row">
@@ -38,7 +38,7 @@
         </agm-circle>
         <!-- <ng-container> -->
           <agm-polyline [strokeColor]="D2691E" [strokeOpacity]="1" >
-              <agm-polyline-point *ngFor="let m of markers" [latitude]="m.lat" [longitude]="m.lng">
+              <agm-polyline-point *ngFor="let m of planeTravelJSON" [latitude]="m.lat" [longitude]="m.lon">
               </agm-polyline-point>
             </agm-polyline>
         <!-- </ng-container> -->
@@ -48,3 +48,4 @@
   </div>
 </div>
 <h1>{{ title }}</h1>
+<div id="map"></div>

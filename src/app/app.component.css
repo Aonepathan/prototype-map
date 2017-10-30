@@ -15,3 +15,8 @@ p
   font-family: "Geo","Geostar Fill","Verdana", "Garamond", serif;
   text-align: center;
 }
+
+#map
+{
+  height: 100%;
+}

@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 declare var require: any
+declare var google: any
 var json = require('./usAirport.json');
+var planeJSON = require('./planeTravel.json');
 
 function parseJSON(json)
 {
@@ -15,6 +17,56 @@ function parseJSON(json)
 }
 
   return json;
+}
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('agm-map'), {
+    center: {
+      lat: 53,
+      lng: 0
+    },
+    zoom: 6,
+    mapTypeId: 'terrain'
+  });
+
+  // Define the symbol, using one of the predefined paths ('CIRCLE')
+  // supplied by the Google Maps JavaScript API.
+  var lineSymbol = {
+    path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+    scale: 3, // change the size
+    strokeColor: '#393'
+  };
+  // Create the polyline and add the symbol to it via the 'icons' property.
+   var line = new google.maps.Polyline({
+     path: [{
+       lat: 51.4700,
+       lng: 0.4543
+     }, {
+       lat: 50.1109,
+       lng: 8.6821
+     }],
+     strokeColor: '#FF0000',
+    strokeOpacity: 1.0,
+    strokeWeight: 0, // change this value to show / hide the line
+    icons: [{
+      icon: lineSymbol,
+      offset: '100%'
+    }],
+    map: map
+  });
+  animateCircle(line);
+}
+
+// Use the DOM setInterval() function to change the offset of the symbol
+// at fixed intervals.
+function animateCircle(line) {
+  var count = 0;
+  window.setInterval(function() {
+    count = (count + 1) % 200; // change this to 1000 to only show the line once
+    var icons = line.get('icons');
+    icons[0].offset = (count / 2) + '%';
+    line.set('icons', icons);
+  }, 50); // change this value to change the speed
 }
 
 @Component({
@@ -32,6 +84,7 @@ export class AppComponent {
   //markers
 
   markerJSON: MyObj[] = parseJSON(json);
+  planeTravelJSON: MyObj[] = parseJSON(planeJSON);
 
   constructor()
   {
@@ -77,5 +130,3 @@ interface MyObj {
 
 
 let obj: MyObj = parseJSON(json);
-console.log(json[5]);
-console.log(json[7]);
