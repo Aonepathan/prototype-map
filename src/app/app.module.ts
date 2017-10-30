@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ApplicationRef, NgZone } from '@angular/core';
+import { HttpModule, Headers, RequestOptions, Jsonp, Response } from '@angular/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
@@ -10,6 +11,7 @@ import { GoogleMapComponent } from './google-map/google-map.component';
 
 @NgModule({
   imports: [
+    HttpModule,
     BrowserModule,
     CommonModule,
     FormsModule,
