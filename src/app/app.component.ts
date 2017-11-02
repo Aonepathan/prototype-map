@@ -12,7 +12,7 @@ var planeJSON = require('./planeTravel.json');
   providers: [PrototypeService]
 })
 export class AppComponent  {
-  title: string = 'KATSURA PROTO-MAP';
+  title: string = 'PROTO-MAP';
   //zoom level
   zoom: number = 4;
   //start position

@@ -10,8 +10,8 @@ let appExports = require('../index');
 
 router.get('/api/init', function(req, res)
 {
-  let kat_host = process.env.KATSURA_PROTOTYPE_API_HOST || defaultEnv.KATSURA_PROTOTYPE_API_HOST;
-  let kat_port = process.env.KATSURA_PROTOTYPE_API_PORT || defaultEnv.KATSURA_PROTOTYPE_API_PORT;
+  let app_host = process.env.API_HOST || defaultEnv.API_HOST;
+  let app_port = process.env.API_PORT || defaultEnv.API_PORT;
 
   if(req.query.after == undefined){
         req.query.after = "";
@@ -19,7 +19,7 @@ router.get('/api/init', function(req, res)
 
   let options =
   {
-    url: 'http://' + kat_host + ':' + kat_port + '/asc/rest/drools/init',
+    url: 'http://' + kat_host + ':' + kat_port,
     method: 'GET',
   };
 

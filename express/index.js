@@ -19,4 +19,4 @@ const request = require('request');
 const app = express()
 
 //ASC_APIs
-app.use('/api/init', require('./routes/katsura-prototype-api'));
+app.use('/api/init', require('./routes/prototype-api'));

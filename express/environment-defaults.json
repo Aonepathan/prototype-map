@@ -1,7 +1,7 @@
 //ports and host come from DCOS
 {
-    "KATSURA_PROTOTYPE_API_HOST": "http:\\localhost",
-    "KATSURA_PROTOTYPE_API_PORT": "9000",
+    "API_HOST": "http:\\localhost",
+    "API_PORT": "9000",
     "SOCKS_PORT": "55758",
     "USE_TUNNELING": "false"
 }
