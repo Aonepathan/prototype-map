@@ -3,6 +3,7 @@ import { HttpModule, Headers, RequestOptions, Jsonp, Response } from '@angular/h
 import { PrototypeService } from './services/prototype.service';
 declare var require: any;
 declare var google: any;
+var json = require('./usAirport.json');
 var planeJSON = require('./planeTravel.json');
 
 @Component({
@@ -23,11 +24,10 @@ export class AppComponent  {
     private service: PrototypeService
   ){}
 
-json = this.service.getMarkers();
-
+// json = this.service.getMarkers();
 
   //markers
-  markerJSON: MyObj[] = this.parseJSON(this.json);
+  markerJSON: MyObj[] = this.parseJSON(json);
   planeTravelJSON: MyObj[] = this.parseJSON(planeJSON);
 
   parseJSON(json)
