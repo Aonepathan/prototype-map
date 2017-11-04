@@ -1,6 +1,6 @@
-A Angular web application using Angular Google Maps and the Google Maps API, yet to decide what this project is going to end up doing...
+Angular web application using Angular Google Maps and the Google Maps API, yet to decide what this project is going to end up doing...
 
-![Current Stage](./images/demoJSONa.png?raw=true "JSON Markers")
+![Current Stage](https://github.com/Aonepathan/prototype-map/blob/master/images/demoJSONa.PNG?raw=true "JSON Markers")
 
 # PrototypeMap
 
